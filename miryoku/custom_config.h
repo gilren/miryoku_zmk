@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#pragma once
+
 #include "keymap_optimot.h"
 
 #define XXX &none
@@ -16,8 +18,8 @@
 
 #define MIRYOKU_LAYER_BASE \
 OP_O,               OP_J,              OP_O,                OP_O,             OP_B,                OP_F,              OP_D,               OP_L,                  OP_QUOT,           OP_Q,          \
-U_MT(LGUI, OP_A),      U_MT(LALT, OP_I),  U_MT(LCTRL, OP_E),   U_MT(LSHFT, OP_U),   OP_COMM,             OP_P,              U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),  U_MT(LGUI, OP_N), \
-U_LT(U_BUTTON, OP_K),  U_MT(RALT, OP_Y),  OP_EGRV,             OP_DOT,              OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
+OP_O,               OP_O,              OP_O,                OP_O,             OP_O,                OP_P,              U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),  U_MT(LGUI, OP_N), \
+OP_O,               OP_O,              OP_O,                OP_O,             OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
 U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE),  U_LT(U_MOUSE, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),      U_NP,              U_NP
 
 // #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_OPTIMOT
@@ -182,29 +184,29 @@ U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE
 // &kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, G),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 // U_NP,              U_NP,              U_LT(U_GAME, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-// #define MIRYOKU_LAYER_LIST \
-// MIRYOKU_X(BASE,   "Base") \
-// MIRYOKU_X(EXTRA,  "Extra") \
-// MIRYOKU_X(TAP,    "Tap") \
-// MIRYOKU_X(BUTTON, "Button") \
-// MIRYOKU_X(NAV,    "Nav") \
-// MIRYOKU_X(MOUSE,  "Mouse") \
-// MIRYOKU_X(MEDIA,  "Media") \
-// MIRYOKU_X(NUM,    "Num") \
-// MIRYOKU_X(SYM,    "Sym") \
-// MIRYOKU_X(FUN,    "Fun") \
+#define MIRYOKU_LAYER_LIST \
+MIRYOKU_X(BASE,   "Base") \
+MIRYOKU_X(EXTRA,  "Extra") \
+MIRYOKU_X(TAP,    "Tap") \
+MIRYOKU_X(BUTTON, "Button") \
+MIRYOKU_X(NAV,    "Nav") \
+MIRYOKU_X(MOUSE,  "Mouse") \
+MIRYOKU_X(MEDIA,  "Media") \
+MIRYOKU_X(NUM,    "Num") \
+MIRYOKU_X(SYM,    "Sym") \
+MIRYOKU_X(FUN,    "Fun") 
 // MIRYOKU_X(GAME,   "Game")
 
 // #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
-// #define U_BASE   0
-// #define U_EXTRA  1
-// #define U_TAP    2
-// #define U_BUTTON 3
-// #define U_NAV    4
-// #define U_MOUSE  5
-// #define U_MEDIA  6
-// #define U_NUM    7
-// #define U_SYM    8
-// #define U_FUN    9
+#define U_BASE   0
+#define U_EXTRA  1
+#define U_TAP    2
+#define U_BUTTON 3
+#define U_NAV    4
+#define U_MOUSE  5
+#define U_MEDIA  6
+#define U_NUM    7
+#define U_SYM    8
+#define U_FUN    9
 // #define U_GAME   10
