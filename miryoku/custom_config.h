@@ -174,7 +174,7 @@ U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, G),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,              U_LT(U_VTWO, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+U_NP,              U_NP,              U_LT(U_GAME, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 
 #define MIRYOKU_LAYER_LIST \
