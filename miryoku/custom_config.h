@@ -187,7 +187,7 @@ MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun")
+MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(GAME,   "Game")
 
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
