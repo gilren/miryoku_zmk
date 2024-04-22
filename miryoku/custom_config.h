@@ -6,7 +6,7 @@
 #define XXX &none
 
 #define MIRYOKU_ALPHAS_QWERTY
-#define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_OPTIMOT
+// #define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_OPTIMOT
 #define MIRYOKU_EXTRA_QWERTY
 #define MIRYOKU_TAP_QWERTY
 #define MIRYOKU_NAV_DEFAULT
@@ -14,7 +14,7 @@
 #define MIRYOKU_CLIPBOARD_WIN
 
 
-#define MIRYOKU_ALTERNATIVES_BASE_OPTIMOT \
+#define MIRYOKU_LAYER_BASE \
 OP_AGRV,               OP_J,              OP_O,                OP_EACU,             OP_B,                OP_F,              OP_D,               OP_L,                  OP_QUOT,           OP_Q,          \
 U_MT(LGUI, OP_A),      U_MT(LALT, OP_I),  U_MT(LCTRL, OP_E),   U_MT(LSHFT, OP_U),   OP_COMM,             OP_P,              U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),  U_MT(LGUI, OP_N), \
 U_LT(U_BUTTON, OP_K),  U_MT(RALT, OP_Y),  OP_EGRV,             OP_DOT,              OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
