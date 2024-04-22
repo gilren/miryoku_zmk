@@ -30,8 +30,9 @@
 #define OP_EQL   &kp N8     // =
 #define OP_LPRN  &kp N9     // (
 #define OP_RPRN  &kp N0     // )
-#define OP_AT    &kp MINUS // @
-#define OP_HASH  &kp EQUAL // #
+#define OP_AT    &kp MINUS  // @
+#define OP_HASH  &kp EQUAL  // #
+
 // Row 2
 #define OP_AGRV  &kp Q     // À
 #define OP_J     &kp W     // J
