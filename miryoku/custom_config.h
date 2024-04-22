@@ -1,30 +1,30 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#include "keymap_optimot_azerty.h"
+#include "keymap_optimot.h"
 
-#define MIRYOKU_ALPHAS_AZERTY
+#define MIRYOKU_ALPHAS_OPTIMOT
 #define MIRYOKU_EXTRA_AZERTY
 #define MIRYOKU_TAP_AZERTY
 #define MIRYOKU_NAV_DEFAULT
 // #define MIRYOKU_CLIPBOARD_DEFAULT
 #define MIRYOKU_CLIPBOARD_WIN
-#define MIRYOKU_LAYERS_DEFAULT
+// #define MIRYOKU_LAYERS_DEFAULT
 
-// #if defined (MIRYOKU_KEYBOARD_CORNE)
+#if defined (MIRYOKU_KEYBOARD_CORNE)
 
-// #define XXX &none
+#define XXX &none
 
-// #define MIRYOKU_LAYERMAPPING_BASE( \
-//      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-//      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-//      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-//      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-// ) \
-// &kp ENTER  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-// XXX        K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-// XXX        K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-//                      K32  K33  K34       K35  K36  K37
+#define MIRYOKU_LAYERMAPPING_BASE( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+&kp HASH      K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp DOLLAR \
+&kp AT_SIGN   K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp CARET \
+&kp TAB       K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp u_to_U_GAME \
+                        K32  K33  K34       K35  K36  K37
 
 
 // #define MIRYOKU_LAYERMAPPING_EXTRA( \
@@ -170,6 +170,12 @@ U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE
 // U_NP,              U_NP,              OP_LPRN,           OP_RPRN,          OP_UNDS,           U_NA,              U_NA,              U_NA,                U_NP,               U_NP
 
 
+#define MIRYOKU_LAYER_GAME \
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+&kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, G),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+U_NP,              U_NP,              U_LT(U_VTWO, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
@@ -182,9 +188,9 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun")
-// MIRYOKU_X(GAME,   "Game")
+MIRYOKU_X(GAME,   "Game")
 
-// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -196,4 +202,4 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
-// #define U_GAME   10
+#define U_GAME   10
