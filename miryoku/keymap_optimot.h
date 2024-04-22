@@ -102,7 +102,7 @@
 #define OP_SCLN  LS(OP_COMM) // ;
 #define OP_EXLM  LS(OP_DCIR) // !
 #define OP_COLN  LS(OP_DOT)  // :
-#define OP_NBSP  LS(SPACE) //   (non-breaking space)
+#define OP_NBSP  LS(&kp SPACE) //   (non-breaking space)
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
