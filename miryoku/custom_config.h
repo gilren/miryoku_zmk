@@ -5,11 +5,11 @@
 
 #define XXX &none
 
-#define MIRYOKU_ALPHAS_QWERTY
-#define MIRYOKU_LAYER_BASE_QWERTY MIRYOKU_ALTERNATIVES_BASE_OPTIMOT
-// #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_OPTIMOT
-// #define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_OPTIMOT
-// #define MIRYOKU_LAYER_SYM MIRYOKU_ALTERNATIVES_SYM_OPTIMOT
+// #define MIRYOKU_ALPHAS_QWERTY
+#define MIRYOKU_LAYER_BASE MIRYOKU_ALTERNATIVES_BASE_OPTIMOT
+#define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_OPTIMOT
+#define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_OPTIMOT
+#define MIRYOKU_LAYER_SYM MIRYOKU_ALTERNATIVES_SYM_OPTIMOT
 #define MIRYOKU_EXTRA_AZERTY
 #define MIRYOKU_NAV_DEFAULT
 #define MIRYOKU_CLIPBOARD_DEFAULT
@@ -145,23 +145,23 @@ U_MT(LGUI, OP_A),      U_MT(LALT, OP_I),  U_MT(LCTRL, OP_E),   U_MT(LSHFT, OP_U)
 U_LT(U_BUTTON, OP_K),  U_MT(RALT, OP_Y),  OP_EGRV,             OP_DOT,              OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
 U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE),  U_LT(U_MOUSE, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,              U_NP
 
-// #define MIRYOKU_ALTERNATIVES_TAP_OPTIMOT \
-// OP_AGRV,               OP_J,              OP_O,                OP_EACU,             OP_B,                OP_F,              OP_D,               OP_L,                  OP_QUOT,           OP_Q,                  \
-// U_MT(LGUI, OP_A),      U_MT(LALT, OP_I),  U_MT(LCTRL, OP_E),   U_MT(LSHFT, OP_U),   OP_COMM,             OP_P,              U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),  U_MT(LGUI, OP_N),      \
-// U_LT(U_BUTTON, OP_K),  U_MT(RALT, OP_Y),  OP_EGRV,             OP_DOT,              OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
-// U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE),  U_LT(U_MOUSE, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,              U_NP
+#define MIRYOKU_ALTERNATIVES_TAP_OPTIMOT \
+OP_AGRV,               OP_J,              OP_O,                OP_EACU,             OP_B,                OP_F,              OP_D,               OP_L,                  OP_QUOT,           OP_Q,                  \
+U_MT(LGUI, OP_A),      U_MT(LALT, OP_I),  U_MT(LCTRL, OP_E),   U_MT(LSHFT, OP_U),   OP_COMM,             OP_P,              U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),  U_MT(LGUI, OP_N),      \
+U_LT(U_BUTTON, OP_K),  U_MT(RALT, OP_Y),  OP_EGRV,             OP_DOT,              OP_W,                OP_G,              OP_C,               OP_M,                  U_MT(RALT, OP_H),  U_LT(U_BUTTON, OP_V),  \
+U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE),  U_LT(U_MOUSE, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC),  U_LT(U_FUN, DEL),  U_NP,              U_NP
 
-// #define MIRYOKU_ALTERNATIVES_NUM_OPTIMOT \
-// OP_LBRC,           OP_7,              OP_8,              OP_9,             OP_RBRC,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,       &u_to_U_TAP,         U_BOOT,           \
-// OP_PLUS,           OP_4,              OP_5,              OP_6,             OP_HMIN,           U_NA,              &kp LSHFT,         &kp LCTRL,           &kp LALT,            &kp LGUI,         \
-// OP_SLSH,           OP_1,              OP_2,              OP_3,             OP_ASTR,           U_NA,              &u_to_U_NUM,       &u_to_U_NAV,         &kp LALT,            U_NA,             \
-// U_NP,              U_NP,              OP_COMM,           OP_0,             OP_EQL,            U_NA,              U_NA,              U_NA,                U_NP,                U_NP
+#define MIRYOKU_ALTERNATIVES_NUM_OPTIMOT \
+OP_LBRC,           OP_7,              OP_8,              OP_9,             OP_RBRC,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,       &u_to_U_TAP,         U_BOOT,           \
+OP_PLUS,           OP_4,              OP_5,              OP_6,             OP_HMIN,           U_NA,              &kp LSHFT,         &kp LCTRL,           &kp LALT,            &kp LGUI,         \
+OP_SLSH,           OP_1,              OP_2,              OP_3,             OP_ASTR,           U_NA,              &u_to_U_NUM,       &u_to_U_NAV,         &kp LALT,            U_NA,             \
+U_NP,              U_NP,              OP_COMM,           OP_0,             OP_EQL,            U_NA,              U_NA,              U_NA,                U_NP,                U_NP
 
-// #define MIRYOKU_ALTERNATIVES_SYM_OPTIMOT \
-// OP_LCBR,           OP_AMPR,           C_AL_EMAIL,        OP_GRV,           OP_RCBR,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,       &u_to_U_TAP,        U_BOOT,            \
-// OP_LABK,           OP_DLR,            OP_PERC,           OP_DQUO,          OP_RABK,           U_NA,              &kp LSHFT,         &kp LCTRL,           &kp LALT,           &kp LGUI,          \
-// OP_DTIL,           OP_DCIR,           OP_AT,             OP_HASH,          OP_PIPE,           U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,       &kp RALT,           U_NA,              \
-// U_NP,              U_NP,              OP_LPRN,           OP_RPRN,          OP_UNDS,           U_NA,              U_NA,              U_NA,                U_NP,               U_NP
+#define MIRYOKU_ALTERNATIVES_SYM_OPTIMOT \
+OP_LCBR,           OP_AMPR,           C_AL_EMAIL,        OP_GRV,           OP_RCBR,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,       &u_to_U_TAP,        U_BOOT,            \
+OP_LABK,           OP_DLR,            OP_PERC,           OP_DQUO,          OP_RABK,           U_NA,              &kp LSHFT,         &kp LCTRL,           &kp LALT,           &kp LGUI,          \
+OP_DTIL,           OP_DCIR,           OP_AT,             OP_HASH,          OP_PIPE,           U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,       &kp RALT,           U_NA,              \
+U_NP,              U_NP,              OP_LPRN,           OP_RPRN,          OP_UNDS,           U_NA,              U_NA,              U_NA,                U_NP,               U_NP
 
 
 // #define MIRYOKU_LAYER_GAME \
