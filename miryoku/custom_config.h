@@ -3,7 +3,7 @@
 
 #include "keymap_optimot.h"
 
-#define MIRYOKU_ALPHAS_OPTIMOT
+#define MIRYOKU_BASE_OPTIMOT
 #define MIRYOKU_EXTRA_AZERTY
 #define MIRYOKU_TAP_AZERTY
 #define MIRYOKU_NAV_DEFAULT
