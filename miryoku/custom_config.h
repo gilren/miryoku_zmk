@@ -170,36 +170,36 @@ U_NP,                  U_NP,              U_LT(U_MEDIA, ESC),  U_LT(U_NAV, SPACE
 // U_NP,              U_NP,              OP_LPRN,           OP_RPRN,          OP_UNDS,           U_NA,              U_NA,              U_NA,                U_NP,               U_NP
 
 
-#define MIRYOKU_LAYER_GAME \
-&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, G),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,              U_LT(U_GAME, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+// #define MIRYOKU_LAYER_GAME \
+// &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// &kp LCTRL,         &kp Z,             &kp X,             &kp C,             U_MT(N4, G),       U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// U_NP,              U_NP,              U_LT(U_GAME, ESC), &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
-#define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base") \
-MIRYOKU_X(EXTRA,  "Extra") \
-MIRYOKU_X(TAP,    "Tap") \
-MIRYOKU_X(BUTTON, "Button") \
-MIRYOKU_X(NAV,    "Nav") \
-MIRYOKU_X(MOUSE,  "Mouse") \
-MIRYOKU_X(MEDIA,  "Media") \
-MIRYOKU_X(NUM,    "Num") \
-MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(GAME,   "Game")
+// #define MIRYOKU_LAYER_LIST \
+// MIRYOKU_X(BASE,   "Base") \
+// MIRYOKU_X(EXTRA,  "Extra") \
+// MIRYOKU_X(TAP,    "Tap") \
+// MIRYOKU_X(BUTTON, "Button") \
+// MIRYOKU_X(NAV,    "Nav") \
+// MIRYOKU_X(MOUSE,  "Mouse") \
+// MIRYOKU_X(MEDIA,  "Media") \
+// MIRYOKU_X(NUM,    "Num") \
+// MIRYOKU_X(SYM,    "Sym") \
+// MIRYOKU_X(FUN,    "Fun") \
+// MIRYOKU_X(GAME,   "Game")
 
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
-#define U_BASE   0
-#define U_EXTRA  1
-#define U_TAP    2
-#define U_BUTTON 3
-#define U_NAV    4
-#define U_MOUSE  5
-#define U_MEDIA  6
-#define U_NUM    7
-#define U_SYM    8
-#define U_FUN    9
-#define U_GAME   10
+// #define U_BASE   0
+// #define U_EXTRA  1
+// #define U_TAP    2
+// #define U_BUTTON 3
+// #define U_NAV    4
+// #define U_MOUSE  5
+// #define U_MEDIA  6
+// #define U_NUM    7
+// #define U_SYM    8
+// #define U_FUN    9
+// #define U_GAME   10

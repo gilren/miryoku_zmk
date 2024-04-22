@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Corne Nice Nano V2 Optimot'
-on: workflow_dispatch
+on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: ./.github/workflows/main.yml
