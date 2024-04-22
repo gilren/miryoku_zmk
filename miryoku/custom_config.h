@@ -1,11 +1,11 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#include "keymap_optimot.h"
+#include "keymap_optimot_azerty.h"
 
-#define MIRYOKU_BASE_OPTIMOT
-#define MIRYOKU_EXTRA_QWERTY
-#define MIRYOKU_TAP_QUERTY
+#define MIRYOKU_BASE_AZERTY
+#define MIRYOKU_EXTRA_AZERTY
+#define MIRYOKU_TAP_AZERTY
 #define MIRYOKU_NAV_DEFAULT
 // #define MIRYOKU_CLIPBOARD_DEFAULT
 #define MIRYOKU_CLIPBOARD_WIN
