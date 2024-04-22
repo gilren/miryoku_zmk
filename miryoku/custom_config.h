@@ -15,14 +15,14 @@
 
 
 #define MIRYOKU_LAYER_BASE \
-OP_F,       OP_D,                OP_L,                 OP_QUOT,               OP_Q,                  OP_F,              OP_D,              OP_L,               OP_QUOT,               OP_Q,                  \
+OP_F,       OP_D,               OP_L,                 OP_QUOT,               OP_Q,                  OP_F,              OP_D,              OP_L,               OP_QUOT,               OP_Q,                  \
 OP_P,       U_MT(LSHFT, OP_T),  U_MT(LCTRL, OP_S),     U_MT(LALT, OP_R),      U_MT(LGUI, OP_N),      OP_P,              U_MT(LSHFT, OP_T), U_MT(LCTRL, OP_S),  U_MT(LALT, OP_R),      U_MT(LGUI, OP_N),      \
-OP_G,       OP_C,               OP_M,                  U_MT(RALT, OP_H),      U_LT(U_BUTTON, OP_V)   OP_G,              OP_C,              OP_M,               U_MT(RALT, OP_H),      U_LT(U_BUTTON, OP_V),  \
+OP_G,       OP_C,               OP_M,                  U_MT(RALT, OP_H),      U_LT(U_BUTTON, OP_V),   OP_G,              OP_C,              OP_M,               U_MT(RALT, OP_H),      U_LT(U_BUTTON, OP_V),  \
 U_NP,       U_NP,               U_LT(U_SYM, RET),      U_LT(U_NUM, BSPC),     U_LT(U_FUN, DEL),      U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),   U_NP,                  U_NP
 
 // #define MIRYOKU_LAYER_TAP MIRYOKU_ALTERNATIVES_TAP_OPTIMOT
 // #define MIRYOKU_LAYER_NUM MIRYOKU_ALTERNATIVES_NUM_OPTIMOT
-// #define MIRYOKU_LAYER_SYM MIRYOKU_ALTERNATIVES_SYM_OPTIMOT
+// #define MIRYOKU_LAYER_SYM MIRYOKU_ALTERNATIVES_SYM_OPTIMOTza
 
 // #if defined (MIRYOKU_KEYBOARD_CORNE)
 
