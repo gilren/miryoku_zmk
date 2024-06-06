@@ -43,7 +43,8 @@
 #define OP_D     &kp U     // D
 #define OP_L     &kp I     // L
 #define OP_QUOT  &kp O     // '
-#define OP_Q     &kp P     // Q
+#define OP_X     &kp P     // X
+//  D + L => P
 #define OP_X     &kp LBKT  // X
 #define OP_Z     &kp RBKT  // Z
 
@@ -57,8 +58,8 @@
 #define OP_T     &kp J     // T
 #define OP_S     &kp K     // S
 #define OP_R     &kp L     // R
-#define OP_N     &kp APOS  // N
-#define OP_DCIR  &kp SEMI  // ^ (dead)
+#define OP_N     &kp SEMI  // N
+#define OP_DCIR  &kp APOS  // ^ (dead)
 #define OP_CCED  &kp NUHS  // Ç
 
 // Row 4
