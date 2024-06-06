@@ -57,8 +57,8 @@
 #define OP_T     &kp J     // T
 #define OP_S     &kp K     // S
 #define OP_R     &kp L     // R
-#define OP_N     &kp SEMI  // N
-#define OP_DCIR  &kp SQT  // ^ (dead)
+#define OP_N     &kp APOS  // N
+#define OP_DCIR  &kp SEMI  // ^ (dead)
 #define OP_CCED  &kp NUHS  // Ç
 
 // Row 4
